@@ -1,0 +1,7 @@
+height = int(input("Enter the height of the flight : "))
+if height <= 1000:
+  print("You are safe to land")
+elif height <= 5000:
+  print("Come down to 1000 ft")
+else:
+  print("Go around and try later")
